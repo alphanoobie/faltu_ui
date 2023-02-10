@@ -1,0 +1,107 @@
+.mainWrapper {
+  background-color: #ffcd9e;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #282828;
+}
+
+.subHeading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #484848;
+  width: 80%;
+}
+
+.showMeText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #282828;
+}
+
+.formWrapper {
+  display: flex;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 344px;
+  height: 64px;
+  background: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #000000;
+  padding: 10px;
+  margin-right: 16px;
+}
+
+.input::placeholder {
+  width: 350px;
+  height: 64px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #888888;
+  padding: 10px;
+}
+
+.registerNowButton {
+  background: #282828;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.spamText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
